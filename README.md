@@ -6,7 +6,7 @@ Technical report: TODO
 
 # Overview
 
-![幻灯片1](/Users/yanyuzhu/Documents/ijcnn_lip/unavglip/幻灯片1.png)
+![unavglip](assets/figs/unavglip.png)
 
 Visual dubbing is the task of generating a talking face video where the lip movements and facial expressions of a speaker are synchronized with a given target audio. It aims to make the synthesized talking face appear as if the speaker is naturally pronouncing the provided speech, even if the original video was recorded in a different language or with different speech content.
 
@@ -18,12 +18,6 @@ The diffusion based  lip-sync model mainly learns to fuse audio feature represen
 
  To address this issue, we propose **UnAvgLip**, which extracts identity embeddings from reference videos to generate highly faithful facial sequences while maintaining perfect lip synchronization. Specifically, our method comprises two primary components: (1) an Identity Perceiver module that encodes facial embeddings for fusion with conditioned audio features; and (2) an ID-CrossAttn module module that injects facial embeddings into the generation process, enhancing focus on detailed facial feature synthesis. Extensive experiments demonstrate that, at a modest training cost, UnAvgLip effectively eliminates the averaging phenomenon in lip synthesis, significantly preserving unique facial characteristics while maintaining precise lip synchronization, achieving SoTA performance across various metrics such as Visual Quality and Identity Similarity on the **HDTF** dataset and **LRW** dataset.
 
-## Model
-
-![Model Structure](assets/figs/musetalk_arc.jpg)
-MuseTalk was trained in latent spaces, where the images were encoded by a freezed VAE. The audio was encoded by a freezed `whisper-tiny` model. The architecture of the generation network was borrowed from the UNet of the `stable-diffusion-v1-4`, where the audio embeddings were fused to the image embeddings by cross-attention. 
-
-Note that although we use a very similar architecture as Stable Diffusion, MuseTalk is distinct in that it is **NOT** a diffusion model. Instead, MuseTalk operates by inpainting in the latent space with a single step.
 
 ## Installation
 
