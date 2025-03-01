@@ -1,0 +1,26 @@
+task_1:
+  video_path: "./results/test27_example.mp4"
+  audio_path: "./new_train_data/audios/ACROSS_00961.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 1
+  guide_scale: 0.0
+
+# task_2:
+#   video_path: "./results/test27"
+#   audio_path: "./new_train_data/audios/test27.wav"
+#   crop_path: ""
+#   face_embs_path: ""
+#   bbox_shift: 0
+#   n_cond: 4
+#   guide_scale: 0
+
+# task_3:
+#   video_path: "./results/test27"
+#   audio_path: "./new_train_data/audios/test27.wav"
+#   crop_path: ""
+#   face_embs_path: ""
+#   bbox_shift: 0
+#   n_cond: 8
+#   guide_scale: 0

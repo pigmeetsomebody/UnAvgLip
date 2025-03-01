@@ -1,0 +1,27 @@
+test1:
+  gt_video_path: "./new_train_data/images/ABUSE_00456"
+  generated_video_path: "./results/ABUSE_00456_ABUSE_00456_v_adapter_1_0_1/crop_ABUSE_00456_ABUSE_00456_v_adapter_1_0_1"
+  generated_cropped: False
+  gt_cropped: False
+  result_save_path: "./evaluate_results/ABUSE_00456_ABUSE_00456_v_adapter_1_0_1"
+
+test2:
+  gt_video_path: "./new_train_data/images/ABUSE_00456"
+  generated_video_path: "./results/ABUSE_00456_ABUSE_00456_v_adapter_1_0_2/crop_ABUSE_00456_ABUSE_00456_v_adapter_1_0_2"
+  generated_cropped: False
+  gt_cropped: False
+  result_save_path: "./evaluate_results/ABUSE_00456_ABUSE_00456_v_adapter_1_0_2"
+
+test3:
+  gt_video_path: "./new_train_data/images/ABUSE_00456"
+  generated_video_path: "./results/ABUSE_00456_ABUSE_00456_v_adapter_1_0_4/crop_ABUSE_00456_ABUSE_00456_v_adapter_1_0_4"
+  generated_cropped: False
+  gt_cropped: False
+  result_save_path: "./evaluate_results/ABUSE_00456_ABUSE_00456_v_adapter_1_0_4"
+
+test4:
+  gt_video_path: "./new_train_data/images/ABUSE_00456"
+  generated_video_path: "./results/ABUSE_00456_ABUSE_00456_v_adapter_1_0_8/crop_ABUSE_00456_ABUSE_00456_v_adapter_1_0_8"
+  generated_cropped: False
+  gt_cropped: False
+  result_save_path: "./evaluate_results/ABUSE_00456_ABUSE_00456_v_adapter_1_0_8"

@@ -1,0 +1,17 @@
+task_1:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 1
+  guide_scale: 0.1
+
+task_2:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 1
+  guide_scale: 0

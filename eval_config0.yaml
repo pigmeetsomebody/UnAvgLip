@@ -1,0 +1,8 @@
+task_ABSOLUTELY_00001:
+  video_path: "./results/ABSOLUTELY_00001_ABSOLUTELY_00001"
+  audio_path: "/date/zhuyy/MuseTalk/results/ABSOLUTELY_00001.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 1
+  guide_scale: 0
