@@ -1,0 +1,32 @@
+task_ABOUT_00001:
+  gt_video_path: /date/zhuyy/MuseTalk/results/adapter/ABOUT_00001
+  generated_video_path: /date/zhuyy/MuseTalk/results/video_retalking/ABOUT_00001_ABOUT_00001.mp4
+  result_save_path: /date/zhuyy/MuseTalk/results/video_retalking
+task_ABUSE_00001:
+  gt_video_path: /date/zhuyy/MuseTalk/results/adapter/ABUSE_00001
+  generated_video_path: /date/zhuyy/MuseTalk/results/video_retalking/ABUSE_00001_ABUSE_00001.mp4
+  result_save_path: /date/zhuyy/MuseTalk/results/video_retalking
+task_AUTHORITIES_00001:
+  gt_video_path: /date/zhuyy/MuseTalk/results/adapter/AUTHORITIES_00001
+  generated_video_path: /date/zhuyy/MuseTalk/results/video_retalking/AUTHORITIES_00001_AUTHORITIES_00001.mp4
+  result_save_path: /date/zhuyy/MuseTalk/results/video_retalking
+task_BUSINESSES_00001:
+  gt_video_path: /date/zhuyy/MuseTalk/results/adapter/BUSINESSES_00001
+  generated_video_path: /date/zhuyy/MuseTalk/results/video_retalking/BUSINESSES_00001_BUSINESSES_00001.mp4
+  result_save_path: /date/zhuyy/MuseTalk/results/video_retalking
+task_CHALLENGE_00001:
+  gt_video_path: /date/zhuyy/MuseTalk/results/adapter/CHALLENGE_00001
+  generated_video_path: /date/zhuyy/MuseTalk/results/video_retalking/CHALLENGE_00001_CHALLENGE_00001.mp4
+  result_save_path: /date/zhuyy/MuseTalk/results/video_retalking
+task_HAPPENING_00001:
+  gt_video_path: /date/zhuyy/MuseTalk/results/adapter/HAPPENING_00001
+  generated_video_path: /date/zhuyy/MuseTalk/results/video_retalking/HAPPENING_00001_HAPPENING_00001.mp4
+  result_save_path: /date/zhuyy/MuseTalk/results/video_retalking
+task_LEADERSHIP_00001:
+  gt_video_path: /date/zhuyy/MuseTalk/results/adapter/LEADERSHIP_00001
+  generated_video_path: /date/zhuyy/MuseTalk/results/video_retalking/LEADERSHIP_00001_LEADERSHIP_00001.mp4
+  result_save_path: /date/zhuyy/MuseTalk/results/video_retalking
+task_MESSAGE_00001:
+  gt_video_path: /date/zhuyy/MuseTalk/results/adapter/MESSAGE_00001
+  generated_video_path: /date/zhuyy/MuseTalk/results/video_retalking/MESSAGE_00001_MESSAGE_00001.mp4
+  result_save_path: /date/zhuyy/MuseTalk/results/video_retalking

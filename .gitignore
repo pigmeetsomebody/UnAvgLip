@@ -8,3 +8,14 @@ models
 results/
 data/audio/*.wav
 data/video/*.mp4
+data/
+train_codes/adapter*
+train_codes/adapterv*
+train_codes/output
+train_codes/val
+train_codes/images
+evaluate_result/
+evaluate_results/
+new_train_data/
+checkpoints/*
+models/checkpoints*

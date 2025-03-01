@@ -1,0 +1,373 @@
+# gt_video_path: "./reaults/zhy_zhy_adapter_1.0/zhy_zhy_adapter_1.0"
+# task_0:
+#   gt_video_path: "./results/zhy_zhy_adapter_1.0/zhy_zhy_adapter_1.0"
+#   generated_video_path: "./results/zhy_zhy_zhy_adapter_1.0"
+#   evaluate_type: "clearness"
+
+# task_1:
+#   gt_video_path: "./results/zhy_zhy_adapter_1.0/zhy_zhy_adapter_1.0"
+#   generated_video_path: "./results/zhy_zhy"
+#   evaluate_type: "clearness"
+
+# task_0:
+#   gt_video_path: "./new_train_data/images/WDA_BarackObama_000"
+#   generated_video_path: "./results/WDA_BarackObama_000_WDA_BarackObama_000_adapter_1.0"
+#   evaluate_type: "clearness"
+
+# task_1:
+#   gt_video_path: "./new_train_data/images/WDA_BarackObama_000"
+#   generated_video_path: "./results/WDA_BarackObama_000_WDA_BarackObama_000"
+#   evaluate_type: "clearness"
+
+# task_2:
+#   gt_video_path: "./new_train_data/images/WDA_KimSchrier_000"
+#   generated_video_path: "./results/WDA_KimSchrier_000_WDA_KimSchrier_000_adapter_1.0"
+#   evaluate_type: "clearness"
+
+# task_3:
+#   gt_video_path: "./new_train_data/images/WDA_KimSchrier_000"
+#   generated_video_path: "./results/WDA_KimSchrier_000_WDA_KimSchrier_000"
+#   evaluate_type: "clearness"
+
+# task_4:
+#   gt_video_path: "./new_train_data/images/WRA_MichaelSteele_000"
+#   generated_video_path: "./results/WRA_MichaelSteele_000_WRA_MichaelSteele_000_adapter_1.0"
+#   evaluate_type: "clearness"
+
+# task_5:
+#   gt_video_path: "./new_train_data/images/WRA_MichaelSteele_000"
+#   generated_video_path: "./results/WRA_MichaelSteele_000_WRA_MichaelSteele_000"
+#   evaluate_type: "clearness"
+
+# task_6:
+#   gt_video_path: "./new_train_data/images/WRA_AdamKinzinger2_001"
+#   generated_video_path: "./results/WRA_AdamKinzinger2_001_WRA_AdamKinzinger2_001_adapter_1.0"
+#   evaluate_type: "clearness"
+
+# task_7:
+#   gt_video_path: "./new_train_data/images/WRA_AdamKinzinger2_001"
+#   generated_video_path: "./results/WRA_AdamKinzinger2_001_WRA_AdamKinzinger2_001"
+#   evaluate_type: "clearness"
+
+# task_8:
+#   gt_video_path: "./new_train_data/images/WDA_TerriSewell_000"
+#   generated_video_path: "./results/WDA_TerriSewell_000_WDA_TerriSewell_000_adapter_1.0"
+#   evaluate_type: "clearness"
+
+# task_9:
+#   gt_video_path: "./new_train_data/images/WDA_TerriSewell_000"
+#   generated_video_path: "./results/WDA_TerriSewell_000_WDA_TerriSewell_000"
+#   evaluate_type: "clearness"
+
+# task_8:
+#   gt_video_path: "./new_train_data/images/val_1"
+#   generated_video_path: "./results/_val_1_lora_adapter_1.0_selected/"
+#   evaluate_type: "clearness"
+
+# task_9:
+#   gt_video_path: "./new_train_data/images/val_1"
+#   generated_video_path: "./results/_val_1_lora_adapter_v_1.0_selected/"
+#   evaluate_type: "clearness"
+
+
+# task_10:
+#   gt_video_path: "./new_train_data/images/val_1"
+#   generated_video_path: "./new_train_data/images/val_1"
+#   evaluate_type: "clearness"
+
+
+# task_1:
+#   gt_video_path: "./new_train_data/images/test3"
+#   generated_video_path: "./new_train_data/images/test3_dinet"
+#   evaluate_type: "clearness"
+
+
+# task_2:
+#   gt_video_path: "./new_train_data/images/test27"
+#   generated_video_path: "./new_train_data/images/test27_dinet"
+#   evaluate_type: "clearness"
+
+# task_3:
+#   gt_video_path: "./new_train_data/images/test3"
+#   generated_video_path: "./new_train_data/images/wav2lip_result_3"
+#   evaluate_type: "clearness"
+
+# task_4:
+#   gt_video_path: "./new_train_data/images/test27"
+#   generated_video_path: "./new_train_data/images/wav2lip_result_27"
+#   evaluate_type: "clearness"
+
+
+# task_5:
+#   gt_video_path: "./new_train_data/images/test3"
+#   generated_video_path: "./new_train_data/images/retalking_test3_test3"
+#   evaluate_type: "clearness"
+
+# task_6:
+#   gt_video_path: "./new_train_data/images/test27"
+#   generated_video_path: "./new_train_data/images/retalking_test27_test27"
+#   evaluate_type: "clearness"
+
+
+# task_7:
+#   gt_video_path: "./new_train_data/images/test3"
+#   generated_video_path: "./results/test3_test3_lora_adapter_1.0_selected/test3_face3dmm/"
+#   evaluate_type: "clearness"
+
+# task_8:
+#   gt_video_path: "./new_train_data/images/test27"
+#   generated_video_path: "./results/test27_test27_lora_adapter_1.0_selected/test27_face3dmm/"
+#   evaluate_type: "clearness"
+
+# task_9:
+#   gt_video_path: "./new_train_data/images/test2"
+#   generated_video_path: "./results/test2_test2_lora_adapter_1.0_selected/test2_face3dmm/"
+#   evaluate_type: "clearness"
+
+# task_10:
+#   gt_video_path: "./new_train_data/images/test14"
+#   generated_video_path: "./results/test14_test14_lora_adapter_1.0_selected/test14_face3dmm/"
+#   evaluate_type: "clearness"
+
+# task_11:
+#   gt_video_path: "./new_train_data/images/test16"
+#   generated_video_path: "./results/test16_test16_lora_adapter_1.0_selected/test16_face3dmm/"
+#   evaluate_type: "clearness"
+
+# task_12:
+#   gt_video_path: "./new_train_data/images/test13"
+#   generated_video_path: "./results/test13_test13_lora_adapter_1.0_selected/test13_face3dmm/"
+#   evaluate_type: "clearness"
+
+
+# task_13:
+#   gt_video_path: "./new_train_data/images/test3"
+#   generated_video_path: "./results/test3_test3/test3_test3/"
+#   evaluate_type: "clearness"
+
+# task_14:
+#   gt_video_path: "./new_train_data/images/test27"
+#   generated_video_path: "./results/test27_test27/test27_test27/"
+#   evaluate_type: "clearness"
+
+# task_15:
+#   gt_video_path: "./new_train_data/images/test2"
+#   generated_video_path: "./results/test2_test2/test2_test2/"
+#   evaluate_type: "clearness"
+
+# task_16:
+#   gt_video_path: "./new_train_data/images/test14"
+#   generated_video_path: "./results/test14_test14/test14_test14/"
+#   evaluate_type: "clearness"
+
+# task_17:
+#   gt_video_path: "./new_train_data/images/test16"
+#   generated_video_path: "./results/test16_test16/test16_test16/"
+#   evaluate_type: "clearness"
+
+# task_18:
+#   gt_video_path: "./new_train_data/images/test13"
+#   generated_video_path: "./results/test13_test13/test13_test13/"
+#   evaluate_type: "clearness"
+
+
+# task_5:
+#   gt_video_path: "./new_train_data/images/test3"
+#   generated_video_path: "./results/test3_test3_v_adapter_0.25_selected_adapter_False_0.25.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test3_v_adapter_0.25"
+#   evaluate_type: "clearness"
+
+# task_6:
+#   gt_video_path: "./new_train_data/images/test3"
+#   generated_video_path: "./results/test3_test3_v_adapter_0.5_selected_adapter_False_0.5.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test3_v_adapter_0.5"
+#   evaluate_type: "clearness"
+
+# task_7:
+#   gt_video_path: "./new_train_data/images/test3"
+#   generated_video_path: "./results/test3_test3_v_adapter_0.75_selected_adapter_False_0.75.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test3_v_adapter_0.75"
+#   evaluate_type: "clearness"
+
+# task_8:
+#   gt_video_path: "./new_train_data/images/test3"
+#   generated_video_path: "./results/test3_test3_v_adapter_1.0_selected_adapter_False_1.0.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test3_v_adapter_1.0"
+#   evaluate_type: "clearness"
+
+
+# task_9:
+#   gt_video_path: "./new_train_data/images/test25"
+#   generated_video_path: "./results/test25_test25_v_adapter_0.25_selected_adapter_False_0.25.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test25_v_adapter_0.25"
+#   evaluate_type: "clearness"
+
+# task_10:
+#   gt_video_path: "./new_train_data/images/test25"
+#   generated_video_path: "./results/test25_test25_v_adapter_0.5_selected_adapter_False_0.5.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test25_v_adapter_0.5"
+#   evaluate_type: "clearness"
+
+# task_11:
+#   gt_video_path: "./new_train_data/images/test25"
+#   generated_video_path: "./results/test25_test25_v_adapter_0.75_selected_adapter_False_0.75.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test25_v_adapter_0.75"
+#   evaluate_type: "clearness"
+
+# task_12:
+#   gt_video_path: "./new_train_data/images/test25"
+#   generated_video_path: "./results/test25_test25_v_adapter_1.0_selected_adapter_False_1.0.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test25_v_adapter_1.0"
+#   evaluate_type: "clearness"
+
+# test3_25:
+#   gt_video_path: "./new_train_data/images/test3"
+#   generated_video_path: "./results/test3_test3_v_adapter_0.25_selected_adapter_False_0.25.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test3_v_adapter_0.25"
+
+# test3_5:
+#   gt_video_path: "./new_train_data/images/test3"
+#   generated_video_path: "./results/test3_test3_v_adapter_0.5_selected_adapter_False_0.5.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test3_v_adapter_0.5"
+
+# test3_75:
+#   gt_video_path: "./new_train_data/images/test3"
+#   generated_video_path: "./results/test3_test3_v_adapter_0.75_selected_adapter_False_0.75.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test3_v_adapter_0.75"
+
+# test3_1:
+#   gt_video_path: "./new_train_data/images/test3"
+#   generated_video_path: "./results/test3_test3_v_adapter_1.0_selected_adapter_False_1.0.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test3_v_adapter_1.0"
+
+
+# test25_25:
+#   gt_video_path: "./new_train_data/images/test25"
+#   generated_video_path: "./results/test25_test25_v_adapter_0.25_selected_adapter_False_0.25.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test25_v_adapter_0.25"
+
+# test25_5:
+#   gt_video_path: "./new_train_data/images/test25"
+#   generated_video_path: "./results/test25_test25_v_adapter_0.5_selected_adapter_False_0.5.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test25_v_adapter_0.5"
+
+# test25_75:
+#   gt_video_path: "./new_train_data/images/test25"
+#   generated_video_path: "./results/test25_test25_v_adapter_0.75_selected_adapter_False_0.75.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test25_v_adapter_0.75"
+
+# test25_1:
+#   gt_video_path: "./new_train_data/images/test25"
+#   generated_video_path: "./results/test25_test25_v_adapter_1.0_selected_adapter_False_1.0.mp4"
+#   generated_cropped: True
+#   gt_cropped: False
+#   result_save_path: "./evaluate_results/test25_v_adapter_1.0"
+
+test27_25:
+  gt_video_path: "./new_train_data/images/test27"
+  generated_video_path: "./results/test27_test27_v_adapter_0.25_selected_adapter_False_0.25.mp4"
+  generated_cropped: True
+  gt_cropped: False
+  result_save_path: "./evaluate_results/test27_v_adapter_0.25"
+
+
+# task_8:
+#   gt_video_path: "./new_train_data/images/test4"
+#   generated_video_path: "./results/test4_test4_lora_adapter_1.0_selected/face3dmm/"
+#   evaluate_type: "clearness"
+
+# task_9:
+#   gt_video_path: "./new_train_data/images/test5"
+#   generated_video_path: "./results/test5_test5_lora_adapter_1.0_selected/face3dmm/"
+#   evaluate_type: "clearness"
+
+# task_10:
+#   gt_video_path: "./new_train_data/images/test6"
+#   generated_video_path: "./results/test6_test6_lora_adapter_1.0_selected/face3dmm/"
+#   evaluate_type: "clearness"
+
+# task_11:
+#   gt_video_path: "./new_train_data/images/test7"
+#   generated_video_path: "./results/test7_test7_lora_adapter_1.0_selected/face3dmm/"
+#   evaluate_type: "clearness"
+
+# task_12:
+#   gt_video_path: "./new_train_data/images/test8"
+#   generated_video_path: "./results/test8_test8_lora_adapter_1.0_selected/face3dmm/"
+#   evaluate_type: "clearness"
+
+
+# task_13:
+#   gt_video_path: "./new_train_data/images/test1"
+#   generated_video_path: "./results/test1_test1/test1_test1/"
+#   evaluate_type: "clearness"
+
+# task_14:
+#   gt_video_path: "./new_train_data/images/test4"
+#   generated_video_path: "./results/test4_test4/test4_test4/"
+#   evaluate_type: "clearness"
+
+# task_15:
+#   gt_video_path: "./new_train_data/images/test5"
+#   generated_video_path: "./results/test5_test5/test5_test5/"
+#   evaluate_type: "clearness"
+
+# task_16:
+#   gt_video_path: "./new_train_data/images/test6"
+#   generated_video_path: "./results/test6_test6/test6_test6/"
+#   evaluate_type: "clearness"
+
+# task_17:
+#   gt_video_path: "./new_train_data/images/test7"
+#   generated_video_path: "./results/test7_test7/test7_test7/"
+#   evaluate_type: "clearness"
+
+# task_18:
+#   gt_video_path: "./new_train_data/images/test8"
+#   generated_video_path: "./results/test8_test8/test8_test8/"
+#   evaluate_type: "clearness"
+
+
+
+# task_11:
+#   gt_video_path: "./new_train_data/images/val_1"
+#   generated_video_path: "./new_train_data/images/talk_talk_adapter_0"
+#   evaluate_type: "clearness"
+
+
+# task_9:
+#   gt_video_path: "./new_train_data/images/WDA_HenryWaxman_000"
+#   generated_video_path: "./results/WDA_HenryWaxman_000_WDA_HenryWaxman_000"
+#   evaluate_type: "clearness"
+
+

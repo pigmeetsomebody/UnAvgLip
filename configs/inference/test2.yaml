@@ -1,0 +1,223 @@
+task_1:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 1
+  guide_scale: 0.25
+
+task_2:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 1
+  guide_scale: 0.5
+
+task_3:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 1
+  guide_scale: 0.75
+
+task_4:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 1
+  guide_scale: 1.0
+
+
+task_5:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 2
+  guide_scale: 0.25
+
+
+
+task_6:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 2
+  guide_scale: 0.5
+
+task_7:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 2
+  guide_scale: 0.75
+
+task_8:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 2
+  guide_scale: 1.0
+
+task_9:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 4
+  guide_scale: 0.25
+
+task_10:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 4
+  guide_scale: 0.5
+
+
+
+task_11:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 4
+  guide_scale: 0.75
+
+task_12:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 4
+  guide_scale: 1.0
+
+task_13:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 5
+  guide_scale: 0.25
+
+task_14:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 5
+  guide_scale: 0.5
+
+
+task_15:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 5
+  guide_scale: 0.75
+
+
+
+task_16:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 5
+  guide_scale: 1.0
+
+task_17:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 8
+  guide_scale: 0.25
+
+task_18:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 8
+  guide_scale: 0.5
+
+task_19:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 8
+  guide_scale: 0.75
+
+task_20:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 8
+  guide_scale: 1.0
+
+task_21:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 10
+  guide_scale: 0.25
+
+task_22:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 10
+  guide_scale: 0.5
+
+task_23:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 10
+  guide_scale: 0.75
+
+task_24:
+  video_path: "./results/ACROSS_00961"
+  audio_path: "./new_train_data/audios/test1.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 10
+  guide_scale: 1.0

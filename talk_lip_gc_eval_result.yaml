@@ -1,0 +1,4 @@
+task_ABSOLUTELY_00001:
+  gt_video_path: /date/zhuyy/MuseTalk/results/adapter/ABSOLUTELY_00001
+  generated_video_path: /date/zhuyy/TalkLip/results/talklip_gc/ABSOLUTELY_00001.mp4
+  result_save_path: /date/zhuyy/TalkLip/results/talklip_gc

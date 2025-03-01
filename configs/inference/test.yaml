@@ -1,10 +1,504 @@
-task_0:
- video_path: "data/video/yongen.mp4"
- audio_path: "data/audio/yongen.wav"
+#task_0:
+# video_path: "data/video/test8.mp4"
+# audio_path: "data/audio/yongen.wav"
+# bbox_shift: -15
+
+# task_0:
+#   video_path: "data/video/zhy.mp4"
+#   audio_path: "data/audio/yongen.wav"
+#   bbox_shift: 6
+
+# task_0:
+#   video_path: "data/video/zhy3.png"
+#   audio_path: "data/audio/val_part0.wav"
+#   bbox_shift: 6
+
+# task_0:
+#   video_path: "data/video/zhy.mp4"
+#   audio_path: "data/audio/yongen.wav"
+#   bbox_shift: 6
+
+# task_2:
+#   video_path: "data/video/zhy3.png"
+#   audio_path: "data/audio/sun.wav"
+#   bbox_shift: 6
+
+# task_0:
+#   video_path: "data/new_val_video/val_1.mp4"
+#   audio_path: "data/audio/val_part0.wav"
+#   bbox_shift: 9
+
+# task_0:
+#   video_path: "data/video/talk.mp4"
+#   audio_path: "data/audio/val_part0.wav"
+#   bbox_shift: 9
+
+# task_0:
+#   video_path: "data/HDTF_dataset/RD_Radio18_000.mp4"
+#   audio_path: "data/audio/val_part0.wav"
+#   bbox_shift: 9
+
+# task_3:
+#   video_path: "data/video/zhy.mp4"
+#   audio_path: "data/audio/yongen.wav"
+#   bbox_shift: 9
+
+# task_4:
+#   video_path: "data/video/zhy3.png"
+#   audio_path: "data/audio/yongen.wav"
+#   bbox_shift: 9
+
+# task_5:
+#   video_path: "data/video/zhy2.mp4"
+#   audio_path: "data/audio/yongen.wav"
+#   bbox_shift: 9
+# task_2:
+#   video_path: "data/video/sun.mp4"
+#   audio_path: "data/audio/val_part0.wav"
+#   bbox_shift: 7
+
+# task_0:
+#   video_path: "./data/train/examples/test5.mp4"
+#   audio_path: "./data/train/examples/driving_audio_1.wav"
+#   crop_path: ""
+#   face_embs_path: ""
+#   bbox_shift: 0
+
+# task_0:
+#   video_path: "./data/train/examples/id01822_Sphk5-7C5xA/"
+#   audio_path: "./data/test/audio1.wav"
+#   crop_path: "./new_train_data/images/id01822_Sphk5-7C5xA/"
+#   face_embs_path: ""
+#   bbox_shift: 0
+
+# task_0:
+#   video_path: "./data/test/xujunhan.mp4"
+#   audio_path: "./data/test/anuo.wav"
+#   crop_path:  ""
+#   face_embs_path: ""
+#   bbox_shift: 0
+
+# task_1:
+#   video_path: "./data/train/examples/test27.mp4"
+#   audio_path: "./new_train_data/audios/test27.wav"
+#   crop_path: ""
+#   face_embs_path: ""
+#   bbox_shift: 0
+
+
 
 task_1:
- video_path: "data/video/sun.mp4"
- audio_path: "data/audio/sun.wav"
- bbox_shift: -7
-  
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 1
+  guide_scale: 0.25
 
+task_2:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 1
+  guide_scale: 0.5
+
+task_3:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 1
+  guide_scale: 0.75
+
+task_4:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 1
+  guide_scale: 1.0
+
+
+task_5:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 2
+  guide_scale: 0.25
+
+
+
+task_6:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 2
+  guide_scale: 0.5
+
+task_7:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 2
+  guide_scale: 0.75
+
+task_8:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 2
+  guide_scale: 1.0
+
+task_9:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 4
+  guide_scale: 0.25
+
+task_10:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 4
+  guide_scale: 0.5
+
+
+
+task_11:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 4
+  guide_scale: 0.75
+
+task_12:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 4
+  guide_scale: 1.0
+
+task_13:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 5
+  guide_scale: 0.25
+
+task_14:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 5
+  guide_scale: 0.5
+
+
+task_15:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 5
+  guide_scale: 0.75
+
+
+
+task_16:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 5
+  guide_scale: 1.0
+
+task_17:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 8
+  guide_scale: 0.25
+
+task_18:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 8
+  guide_scale: 0.5
+
+task_19:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 8
+  guide_scale: 0.75
+
+task_20:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 8
+  guide_scale: 1.0
+
+task_21:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 10
+  guide_scale: 0.25
+
+task_22:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 10
+  guide_scale: 0.5
+
+task_23:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 10
+  guide_scale: 0.75
+
+task_24:
+  video_path: "./results/ABUSE_00456"
+  audio_path: "./new_train_data/audios/test5.wav"
+  crop_path: ""
+  face_embs_path: ""
+  bbox_shift: 0
+  n_cond: 10
+  guide_scale: 1.0
+
+
+
+# task_2:
+#   video_path: "./data/train/examples/test2.mp4"
+#   audio_path: "./new_train_data/audios/test2.wav"
+#   crop_path: ""
+#   face_embs_path: ""
+#   bbox_shift: 0
+
+# task_3:
+#   video_path: "./data/train/examples/test14.mp4"
+#   audio_path: "./new_train_data/audios/test1.wav"
+#   crop_path: ""
+#   face_embs_path: "./results/test14.pt"
+#   bbox_shift: 0
+
+# task_4:
+#   video_path: "./data/train/examples/test16.mp4"
+#   audio_path: "./new_train_data/audios/test16.wav"
+#   crop_path: ""
+#   face_embs_path: ""
+#   bbox_shift: 0
+
+# task_5:
+#   video_path: "./data/train/examples/test13.mp4"
+#   audio_path: "./new_train_data/audios/test13.wav"
+#   crop_path: ""
+#   face_embs_path: ""
+#   bbox_shift: 0
+
+
+# task_0:
+#   video_path: "./data/train/examples/test3.mp4"
+#   audio_path: "./new_train_data/audios/test1.wav"
+#   crop_path: ""
+#   face_embs_path: "./results/test3.pt"
+#   bbox_shift: 15
+
+# task_1:
+#   video_path: "./data/train/examples/test4.mp4"
+#   audio_path: "./new_train_data/audios/test4.wav"
+#   crop_path: ""
+#   face_embs_path: ""
+#   bbox_shift: 15
+
+# task_2:
+#   video_path: "./data/train/examples/test25.mp4"
+#   audio_path: "./new_train_data/audios/test25.wav"
+#   crop_path: ""
+#   face_embs_path: ""
+#   bbox_shift: 0
+
+# task_3:
+#   video_path: "./data/train/examples/test6.mp4"
+#   audio_path: "./new_train_data/audios/test6.wav"
+#   crop_path: ""
+#   face_embs_path: ""
+#   bbox_shift: 15
+
+# task_4:
+#   video_path: "./data/train/examples/test7.mp4"
+#   audio_path: "./new_train_data/audios/test7.wav"
+#   crop_path: ""
+#   face_embs_path: ""
+#   bbox_shift: 15
+
+# task_5:
+#   video_path: "./data/train/examples/test8.mp4"
+#   audio_path: "./new_train_data/audios/test1.wav"
+#   crop_path: ""
+#   face_embs_path: "./results/test8.pt"
+#   bbox_shift: 15
+
+
+
+# task_0:
+#   video_path: "./new_train_data/images/WDA_BarackObama_000"
+#   audio_path: "./new_train_data/audios/WDA_BarackObama_000.wav"
+#   face_embs_path: ".new_train_data/face_ids/WDA_BarackObama_000.pt"
+#   crop_path: "./new_train_data/images/WDA_BarackObama_000"
+#   bbox_shift: 0
+
+# task_1:
+#   video_path: "./new_train_data/images/WDA_KimSchrier_000"
+#   audio_path: "./new_train_data/audios/WDA_KimSchrier_000.wav"
+#   face_embs_path: ".new_train_data/face_ids/WDA_KimSchrier_000.pt"
+#   crop_path: "./new_train_data/images/WDA_KimSchrier_000"
+#   bbox_shift: 0
+
+# task_2:
+#   video_path: "./new_train_data/images/WRA_MichaelSteele_000"
+#   audio_path: "./new_train_data/audios/WRA_MichaelSteele_000.wav"
+#   face_embs_path: ".new_train_data/face_ids/WRA_MichaelSteele_000.pt"
+#   crop_path: "./new_train_data/images/WRA_MichaelSteele_000"
+#   bbox_shift: 0
+
+# task_3:
+#   video_path: "./new_train_data/images/WRA_AdamKinzinger2_001"
+#   audio_path: "./new_train_data/audios/WRA_AdamKinzinger2_001.wav"
+#   face_embs_path: ".new_train_data/face_ids/WRA_AdamKinzinger2_001.pt"
+#   crop_path: "./new_train_data/images/WRA_AdamKinzinger2_001"
+#   bbox_shift: 0
+
+
+# task_4:
+#   video_path: "./new_train_data/images/WDA_TerriSewell_000"
+#   audio_path: "./new_train_data/audios/WDA_TerriSewell_000.wav"
+#   face_embs_path: ".new_train_data/face_ids/WDA_TerriSewell_000.pt"
+#   crop_path: "./new_train_data/images/WDA_TerriSewell_000"
+#   bbox_shift: 0
+
+# task_5:
+#   video_path: "./new_train_data/images/WRA_MikeCrapo_000"
+#   audio_path: "./new_train_data/audios/WRA_MikeCrapo_000.wav"
+#   face_embs_path: ".new_train_data/face_ids/WRA_MikeCrapo_000.pt"
+#   crop_path: "./new_train_data/images/WRA_MikeCrapo_000"
+#   bbox_shift: 0
+
+# task_6:
+#   video_path: "./new_train_data/images/WDA_BillRichardson_000"
+#   audio_path: "./new_train_data/audios/WDA_BillRichardson_000.wav"
+#   face_embs_path: ".new_train_data/face_ids/WDA_BillRichardson_000.pt"
+#   crop_path: "./new_train_data/images/WDA_BillRichardson_000"
+#   bbox_shift: 0
+
+# task_0:
+#   video_path: "data/video/zhy.mp4"
+#   audio_path: "data/audio/zhy.wav"
+#   face_embs_path: "results/zhy.pt"
+#   crop_path: None
+#   bbox_shift: 0
+
+# task_0:
+#   crop_path: "new_train_data/still_images/WDA_NancyPelosi0_000/images"
+#   video_path: "new_train_data/still_images/WDA_NancyPelosi0_000/images"
+#   audio_path: "data/audio/yongen.wav"
+#   face_embs_path: "new_train_data/face_ids/WDA_AlexandriaOcasioCortez_000.pt"
+#   bbox_shift: 0
+
+# task_1:
+#   crop_path: "new_train_data/still_images/RD_Radio18_000/images"
+#   video_path: "new_train_data/still_images/RD_Radio18_000/images"
+#   audio_path: "data/audio/yongen.wav"
+#   face_embs_path: "new_train_data/face_ids/WDA_AlexandriaOcasioCortez_000.pt"
+#   bbox_shift: 0
+
+
+# task_2:
+#   crop_path: "new_train_data/still_images/WDA_AlexandriaOcasioCortez_000/images"
+#   video_path: "new_train_data/still_images/WDA_AlexandriaOcasioCortez_000/images"
+#   audio_path: "data/audio/yongen.wav"
+#   face_embs_path: "new_train_data/face_ids/WDA_AlexandriaOcasioCortez_000.pt"
+#   bbox_shift: 0
+
+
+
+# task_0:
+#   video_path: "./new_train_data/images/WDA_BobbyScott_000"
+#   audio_path: "./new_train_data/audios/WDA_BobbyScott_000.wav"
+#   face_embs_path: ".new_train_data/face_ids/WDA_BobbyScott_000.pt"
+#   crop_path: "./new_train_data/images/WDA_BobbyScott_000"
+#   bbox_shift: 0
+
+# task_1:
+#   video_path: "./new_train_data/images/WDA_ColinAllred_000"
+#   audio_path: "./new_train_data/audios/WDA_ColinAllred_000.wav"
+#   face_embs_path: ".new_train_data/face_ids/WDA_ColinAllred_000.pt"
+#   crop_path: "./new_train_data/images/WDA_ColinAllred_000"
+#   bbox_shift: 0
+
+# task_2:
+#   video_path: "./new_train_data/images/WDA_HenryWaxman_000"
+#   audio_path: "./new_train_data/audios/WDA_HenryWaxman_000.wav"
+#   face_embs_path: ".new_train_data/face_ids/WDA_HenryWaxman_000.pt"
+#   crop_path: "./new_train_data/images/WDA_HenryWaxman_000"
+#   bbox_shift: 0
+
+# task_3:
+#   video_path: "./new_train_data/images/WRA_AdamKinzinger2_001"
+#   audio_path: "./new_train_data/audios/WRA_AdamKinzinger2_001.wav"
+#   face_embs_path: ".new_train_data/face_ids/WRA_AdamKinzinger2_001.pt"
+#   crop_path: "./new_train_data/images/WRA_AdamKinzinger2_001"
+#   bbox_shift: 0
+
+
+# task_4:
+#   video_path: "./new_train_data/images/WDA_TerriSewell_000"
+#   audio_path: "./new_train_data/audios/WDA_TerriSewell_000.wav"
+#   face_embs_path: ".new_train_data/face_ids/WDA_TerriSewell_000.pt"
+#   crop_path: "./new_train_data/images/WDA_TerriSewell_000"
+#   bbox_shift: 0

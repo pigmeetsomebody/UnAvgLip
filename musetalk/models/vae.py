@@ -93,18 +93,35 @@ class VAE():
         init_latents = self.scaling_factor * init_latent_dist.sample()
         return init_latents
     
-    def decode_latents(self, latents):
+    def decode_latents(self, latents, ref_images=None):
         """
         Decode latent variables back into an image.
         :param latents: The latent variables to decode.
         :return: A NumPy array representing the decoded image.
         """
-        latents = (1/  self.scaling_factor) * latents
+        
+        latents = (1/  0.18215) * latents
         image = self.vae.decode(latents.to(self.vae.dtype)).sample
         image = (image / 2 + 0.5).clamp(0, 1)
         image = image.detach().cpu().permute(0, 2, 3, 1).float().numpy()
         image = (image * 255).round().astype("uint8")
-        image = image[...,::-1] # RGB to BGR
+        # image = image[...,::-1] # RGB to BGR
+        image = [Image.fromarray(im) for im in image]
+        if ref_images is None:
+            return image
+        if len(image) != len(ref_images):
+            raise ValueError(f"length mismatch at index {i}: "
+                             f"image={len(image)}, ref={len(ref_images)}")
+        for i in range(len(image)):
+            # Ensure both images have the same size
+            if image[i].size != ref_images[i].size:
+                raise ValueError(f"Size mismatch at index {i}: "
+                             f"image={image[i].size}, ref={ref_images[i].size}")
+
+            width, height = image[i].size
+            top_half = ref_images[i].crop((0, 0, width, height // 2))
+            image[i].paste(top_half, (0, 0))
+
         return image
     
     def get_latents_for_unet(self,img):

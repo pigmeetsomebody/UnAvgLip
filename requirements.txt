@@ -1,7 +1,7 @@
 --extra-index-url https://download.pytorch.org/whl/cu118 
-torch==2.0.1
-torchvision==0.15.2 
-torchaudio==2.0.2
+torch==2.1.1
+torchvision==0.16.1
+torchaudio==2.1.1
 diffusers==0.27.2
 accelerate==0.28.0
 tensorflow==2.12.0
@@ -14,8 +14,17 @@ gdown
 requests
 imageio[ffmpeg]
 
+huggingface-hub==0.24.6
+
 omegaconf
 ffmpeg-python
 gradio
 spaces
 moviepy
+
+numpy
+pillow
+tqdm
+matplotlib
+
+insightface==0.7.3

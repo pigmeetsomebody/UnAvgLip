@@ -1,0 +1,28 @@
+test1:
+  gt_video_path: "./new_train_data/images/test3"
+  generated_video_path: "./results/test3_test3_v_adapter_0_25_1/crop_test3_test3_v_adapter_0_25_1"
+  generated_cropped: False
+  gt_cropped: False
+  result_save_path: "./evaluate_results/test3_test3_v_adapter_0_25_1"
+
+test2:
+  gt_video_path: "./new_train_data/images/test3"
+  generated_video_path: "./results/test3_test3_v_adapter_0_25_4/crop_test3_test3_v_adapter_0_25_4"
+  generated_cropped: False
+  gt_cropped: False
+  result_save_path: "./evaluate_results/test3_test3_v_adapter_0_25_4"
+
+test3:
+  gt_video_path: "./new_train_data/images/test3"
+  generated_video_path: "./results/test3_test3_v_adapter_0_25_8/crop_test3_test3_v_adapter_0_25_8"
+  generated_cropped: False
+  gt_cropped: False
+  result_save_path: "./evaluate_results/test3_test3_v_adapter_0_25_8"
+
+test4:
+  gt_video_path: "./new_train_data/images/test3"
+  generated_video_path: "./results/test3_example_test3_v_adapter_0_0_1/crop_test3_example_test3_v_adapter_0_0_1"
+  generated_cropped: False
+  gt_cropped: False
+  result_save_path: "./evaluate_results/test27_example_test3_v_adapter_0_0_1"
+
