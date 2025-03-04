@@ -17,11 +17,11 @@ from musetalk.utils.utils import load_all_model
 import shutil
 import insightface
 from  insightface.app import FaceAnalysis
-from train_codes.ip_adapter.ip_adapter_faceid import MLPProjModel
-from train_codes.ip_adapter.utils import is_torch2_available, register_cross_attention_hook, get_net_attn_map, attnmaps2images, concat_images
-from train_codes.ip_adapter.attention_processor_faceid import LoRAAttnProcessor, LoRAIPAttnProcessor
-from train_codes.ip_adapter.ip_adapter import IPAdapterModule
-from train_codes.ip_adapter.ip_adapter_faceid_separate import IPAdapterFaceID
+from train_codes.identity_adapter.ip_adapter_faceid import MLPProjModel
+from train_codes.identity_adapter.utils import is_torch2_available, register_cross_attention_hook, get_net_attn_map, attnmaps2images, concat_images
+from train_codes.identity_adapter.attention_processor_faceid import LoRAAttnProcessor, LoRAIPAttnProcessor
+from train_codes.identity_adapter.identity_adapter import IPAdapterModule
+from train_codes.identity_adapter.ip_adapter_faceid_separate import IPAdapterFaceID
 
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.cluster import MiniBatchKMeans
@@ -212,7 +212,7 @@ image_proj_model = MLPProjModel(
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-# ip_adapter = IPAdapterModule(unet.model, image_proj_model, adapter_modules)
+# identity_adapter = IPAdapterModule(unet.model, image_proj_model, adapter_modules)
 
 ip_adapter = IPAdapterFaceID(unet.model, "train_codes/output/adapter0104/checkpoint-20000/pytorch_model.bin", accelerator.device, 4, 1, torch.float32)
 ip_adapter.load_ip_adapter()
@@ -279,7 +279,7 @@ def main(args):
     inference_config = OmegaConf.load(args.inference_config)
     print(inference_config)
     ip_adapter.set_scale(args.guide_scale)
-    # ip_adapter.load_ip_adapter()
+    # identity_adapter.load_ip_adapter()
     for task_id in inference_config:
         video_path = inference_config[task_id]["video_path"]
         audio_path = inference_config[task_id]["audio_path"]
@@ -549,7 +549,7 @@ def main(args):
             # faceid_embeds_batch_new = torch.cat(faceid_embeds_batch_list, dim=0)
             # faceid_embeds_batch_new = faceid_embeds_batch_new.to(device=unet.device, dtype=unet.model.dtype)
 
-            # pred_latents = ip_adapter(latent_batch, timesteps, encoder_hidden_states=audio_feature_batch, image_embeds=faces_embeds_batch)
+            # pred_latents = identity_adapter(latent_batch, timesteps, encoder_hidden_states=audio_feature_batch, image_embeds=faces_embeds_batch)
             pred_latents = ip_adapter(latent_batch, timesteps, encoder_hidden_states=audio_feature_batch, image_embeds=faces_embeds_batch)
             
             recon = vae.decode_latents(pred_latents)

@@ -17,10 +17,10 @@ from musetalk.utils.utils import load_all_model
 import shutil
 import insightface
 from  insightface.app import FaceAnalysis
-from train_codes.ip_adapter.ip_adapter_faceid import MLPProjModel
-from train_codes.ip_adapter.utils import is_torch2_available
-from train_codes.ip_adapter.attention_processor_faceid import LoRAAttnProcessor, LoRAIPAttnProcessor
-from train_codes.ip_adapter.ip_adapter import IPAdapterModule
+from train_codes.identity_adapter.ip_adapter_faceid import MLPProjModel
+from train_codes.identity_adapter.utils import is_torch2_available
+from train_codes.identity_adapter.attention_processor_faceid import LoRAAttnProcessor, LoRAIPAttnProcessor
+from train_codes.identity_adapter.identity_adapter import IPAdapterModule
 
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.cluster import MiniBatchKMeans
@@ -384,7 +384,7 @@ def main(args):
             faceid_embeds_batch_new = torch.cat(faceid_embeds_batch_list, dim=0)
             faceid_embeds_batch_new = faceid_embeds_batch_new.to(device=unet.device, dtype=unet.model.dtype)
 
-            # pred_latents = ip_adapter(latent_batch, timesteps, encoder_hidden_states=audio_feature_batch, image_embeds=faces_embeds_batch)
+            # pred_latents = identity_adapter(latent_batch, timesteps, encoder_hidden_states=audio_feature_batch, image_embeds=faces_embeds_batch)
             pred_latents = ip_adapter(latent_batch, timesteps, encoder_hidden_states=audio_feature_batch, image_embeds=faces_embeds_batch)
             recon = vae.decode_latents(pred_latents)
             for res_frame in recon:

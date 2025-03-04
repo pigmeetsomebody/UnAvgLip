@@ -17,9 +17,9 @@ from torch.utils.data import Dataset
 from torchvision import transforms
 from tqdm.auto import tqdm
 import cv2
-from ip_adapter.ip_adapter_faceid import MLPProjModel
-from ip_adapter.utils import is_torch2_available
-from ip_adapter.attention_processor_faceid import LoRAAttnProcessor, LoRAIPAttnProcessor
+from identity_adapter.ip_adapter_faceid import MLPProjModel
+from identity_adapter.utils import is_torch2_available
+from identity_adapter.attention_processor_faceid import LoRAAttnProcessor, LoRAIPAttnProcessor
 
 from diffusers import (
     AutoencoderKL,
@@ -70,7 +70,7 @@ class IPAdapter(torch.nn.Module):
 
         # Load state dict for image_proj_model and adapter_modules
         self.image_proj_model.load_state_dict(state_dict["image_proj"], strict=True)
-        self.adapter_modules.load_state_dict(state_dict["ip_adapter"], strict=True)
+        self.adapter_modules.load_state_dict(state_dict["identity_adapter"], strict=True)
 
         # Calculate new checksums
         new_ip_proj_sum = torch.sum(torch.stack([torch.sum(p) for p in self.image_proj_model.parameters()]))
