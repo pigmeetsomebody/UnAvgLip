@@ -1,6 +1,0 @@
-test1:
-  gt_video_path: "./new_train_data/images/test27"
-  generated_video_path: "~/Wav2Lip/results/wav2lip_result_27.mp4"
-  generated_cropped: True
-  gt_cropped: False
-  result_save_path: "./evaluate_results/test27_test27_v_adapter_0_25_1"

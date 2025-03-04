@@ -202,6 +202,25 @@ configs/inference/test.yaml is the path to the inference configuration file, inc
 
 **guide_scale**: The weight factor of ID-CrossAttn. (from 0 to 1.0)
 
+<h3>Evaluate</h3>
+To evaluate visual quality and identity similarity between ground truth and generated image, we use the script:
+```
+python scripts.evaluate_clearness  --evaluate_config ./configs/evaluate/test.yaml
+```
+**gt_video_path**: The file path of ground truth video. The gt_video_path should be either a video file, an image file or a directory of images.  You are recommended to input video with `25fps`, the same fps used when training the model. If your video is far less than 25fps, you are recommended to apply frame interpolation or directly convert the video to 25fps using ffmpeg.
+
+**generated_video_path**: The file path of generated video. The generated_video_path should be either a video file, an image file or a directory of images.  You are recommended to input video with `25fps`, the same fps used when training the model. If your video is far less than 25fps, you are recommended to apply frame interpolation or directly convert the video to 25fps using ffmpeg.
+
+**gt_cropped**: The frames of ground truth video will be cropped to 256 X 256 size. A face detector will be used to crop the face.
+
+**generated_cropped**: The frames of generated video will be cropped to 256 X 256 size. A face detector will be used to crop the face.
+
+**face_embs_path**: The face_embs_path should be .pt file that stores the Face ID embedding. Leave it empty if it is not obtained. The script will extract  Face ID embeddings from randomly selected N cropped face frame using insightface.
+
+**result_save_path**: The results dir.
+
+To evaluate lip synchronization, we recommend [`syncnet`](https://github.com/joonson/syncnet_python).
+
 # Acknowledgement
 
 1. We thank open-source components like [MuseTalk](https://github.com/TMElyralab/MuseTalk/tree/train_codes),  [whisper](https://github.com/openai/whisper), [dwpose](https://github.com/IDEA-Research/DWPose), [face-alignment](https://github.com/1adrianb/face-alignment), [face-parsing](https://github.com/zllrunning/face-parsing.PyTorch), [S3FD](https://github.com/yxlijun/S3FD.pytorch). 

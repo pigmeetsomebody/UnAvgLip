@@ -17,8 +17,7 @@ from musetalk.utils.utils import load_all_model
 import shutil
 import insightface
 from  insightface.app import FaceAnalysis
-from train_codes.identity_adapter.resampler import Resampler
-from train_codes.identity_adapter.ip_adapter_faceid import MLPProjModel
+from train_codes.identity_adapter.identity_perceiver import Resampler
 from train_codes.identity_adapter.utils import is_torch2_available
 from train_codes.identity_adapter.attention_processor_faceid import LoRAAttnProcessor, LoRAIPAttnProcessor, LoRAAttnProcessor2_0, LoRAIPAttnProcessor2_0
 from train_codes.identity_adapter.identity_adapter import IPAdapterModule
